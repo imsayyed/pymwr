@@ -2,6 +2,8 @@
 
 PyMWR is a Python package for interacting with microwave radiometer (MWR) data. It allows users to read, plot, and analyze MWR data from various sources.
 
+Please note that it is currently in  development mode.
+
 
 ## Installation
 
