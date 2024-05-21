@@ -70,7 +70,7 @@ def get_height_levels(mwr_data: pd.DataFrame) -> dict:
     for i in temp:
         try:
             mwr_ht.append(float(i))
-        except ValueError:
+        except:
             pass
     mwr_ht = mwr_ht[mwr_ht.index(0):]
     return {'MWR height levels (km)': mwr_ht}
